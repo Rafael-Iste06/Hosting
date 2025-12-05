@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 const PORT = process.env.PORT || 3000; // Render donne un port automatiquement
 const API_KEY = "SECRET_KEY_XYVRAX";   // Ton mot de passe API
 // Remplace ceci par ton lien MongoDB Atlas
-const MONGO_URI = "mongodb+srv://username:p@ssword@cluster0.0rvtvhk.mongodb.net/?appName=Cluster0";
+const MONGO_URI = "mongodb+srv://rafaelistegaie_db_user:sjFx7f3LSf257pFW@cluster0.gdo1ulo.mongodb.net/?appName=Cluster0";
 
 // --- 1. CONNEXION MONGODB ---
 mongoose.connect(MONGO_URI)
